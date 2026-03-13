@@ -49,10 +49,15 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2026-03-12T14:00:44.789653+00:00'
-description: Neuropixels recording with electrical stimulation in an anesthetized
+description: "Neuropixels recording with electrical stimulation in an anesthetized
   Sprague-Dawley rat, 24 hours after 0.2 mg/kg LSD administration. Includes raw AP
   (30 kHz) and LFP (2.5 kHz) data, NIDQ auxiliary channels with stimulation triggers,
-  and Kilosort4-sorted units with Phy curation.
+  and Kilosort4-sorted units with Phy curation.\n\nElectrode coordinates: Stereotaxic
+  positions are provided per-contact in NWB convention (+x=posterior, +y=inferior,
+  +z=right) in mm relative to bregma. Probe insertion: AP=3.4 mm anterior, ML=0.75
+  mm right of midline, DV=6.0 mm ventral from brain surface (probe tip). Perpendicular
+  insertion (0 deg angle). Per-contact lateral offsets from the NP1 staggered column
+  layout (48 um total spread) are incorporated into the z (ML) coordinate."
 ethicsApproval: []
 id: DANDI:001765/draft
 identifier: DANDI:001765
