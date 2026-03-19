@@ -8,32 +8,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 101296681200
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
-    name: Rattus norvegicus - Norway rat
-    schemaKey: SpeciesType
-  variableMeasured:
-  - Units
-  - ElectricalSeries
-  - ElectrodeGroup
 citation: Neuropixels recording in anesthetized rat 24h after LSD (2026). (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001765/draft
 contributor:
