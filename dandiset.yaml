@@ -8,9 +8,32 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 101296681200
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectricalSeries
+  - ElectrodeGroup
 citation: Neuropixels recording in anesthetized rat 24h after LSD (2026). (Version
   draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001765/draft
 contributor:
@@ -26,15 +49,15 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2026-03-12T14:00:44.789653+00:00'
-description: "Neuropixels recording with electrical stimulation in an anesthetized
+description: 'Neuropixels recording with electrical stimulation in an anesthetized
   Sprague-Dawley rat, 24 hours after 0.2 mg/kg LSD administration. Includes raw AP
   (30 kHz) and LFP (2.5 kHz) data, NIDQ auxiliary channels with stimulation triggers,
-  and Kilosort4-sorted units with Phy curation.\n\nElectrode coordinates: Stereotaxic
-  positions are provided per-contact in NWB convention (+x=posterior, +y=inferior,
+  and Kilosort4-sorted units with Phy curation.Electrode coordinates: Stereotaxic
+  positions are provided per-contact in Paxinos-Watson convention (+x=anterior, +y=superior,
   +z=right) in mm relative to bregma. Probe insertion: AP=3.4 mm anterior, ML=0.75
-  mm right of midline, DV=6.0 mm ventral from brain surface (probe tip). Perpendicular
+  mm left of midline, DV=6.0 mm ventral from brain surface (probe tip). Perpendicular
   insertion (0 deg angle). Per-contact lateral offsets from the NP1 staggered column
-  layout (48 um total spread) are incorporated into the z (ML) coordinate."
+  layout (48 um total spread) are incorporated into the z (ML) coordinate.'
 ethicsApproval: []
 id: DANDI:001765/draft
 identifier: DANDI:001765
