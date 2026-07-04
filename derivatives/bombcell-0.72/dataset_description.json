@@ -1,0 +1,17 @@
+{
+  "Name": "bombcell 0.72 unit quality metrics",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "bombcell",
+      "Version": "0.72",
+      "CodeURL": "https://github.com/Julie-Fabre/bombcell"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "bids:derivatives/kilosort4-4.1.3:"
+    }
+  ]
+}

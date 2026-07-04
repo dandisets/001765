@@ -1,0 +1,23 @@
+{
+    "probe_name": {
+        "LongName": "Probe name",
+        "Description": "A unique identifier of the probe, can be identical with the device_serial_number."
+    },
+    "type": {
+        "LongName": "Type",
+        "Description": "The type of the probe."
+    },
+    "model": {
+        "LongName": "Model",
+        "Description": "The model name or number of the probe (for example, Neuropixels 1.0, A1x32-Poly3-5mm-25s-177).",
+        "Levels": {
+            "PRB_1_4_0480_1_C": {
+                "TermURL": "https://raw.githubusercontent.com/SpikeInterface/probeinterface_library/refs/heads/main/imec/PRB_1_4_0480_1_C/PRB_1_4_0480_1_C.json"
+            }
+        }
+    },
+    "description": {
+        "Description": "Probe description from NWB file.",
+        "LongName": "Description"
+    }
+}

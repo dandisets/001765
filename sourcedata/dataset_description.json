@@ -1,0 +1,20 @@
+{
+    "Name": "Neuropixels recordings in anesthetized rats (saline/LSD) with electrical stimulation - raw",
+    "BIDSVersion": "1.10.1",
+    "HEDVersion": "8.3.0",
+    "Description": "Raw Neuropixels 1.0 electrophysiology (AP 30 kHz, LFP 2.5 kHz, NIDQ stim triggers) from anesthetized Sprague-Dawley rats recorded in medial prefrontal cortex with electrical stimulation in BLA, 24 hours after 0.2 mg/kg LSD or saline (vehicle).",
+    "DatasetType": "raw",
+    "Authors": [
+        "Dwiel, Lucas",
+        "Doucette, Wilder"
+    ],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.13.0",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}

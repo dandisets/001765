@@ -1,0 +1,7 @@
+{
+    "MicroephysCoordinateSystem": "PaxinosWatson",
+    "MicroephysCoordinateUnits": "mm",
+    "MicroephysCoordinateSystemDescription": "Paxinos and Watson Rat Brain Atlas (7th edition). Origin at bregma for anterior-posterior (AP) and medial-lateral (ML), and at the brain surface for dorsal-ventral (DV). Standard stereotaxic convention: X is anterior-posterior (anterior positive), Y is medial-lateral (right positive), Z is dorsal-ventral (dorsal positive, ventral negative). Coordinates are in millimeters.",
+    "MicroephysCoordinateProcessingDescription": "Electrode positions were registered to the Paxinos and Watson atlas using anatomical landmarks and/or histological verification.",
+    "MicroephysCoordinateProcessingReference": "https://doi.org/10.1016/C2009-0-63235-9"
+}

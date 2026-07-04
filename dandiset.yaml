@@ -8,13 +8,42 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_016124
+    name: Brain Imaging Data Structure (BIDS)
+    schemaKey: StandardsType
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 954842477885
+  numberOfFiles: 71
+  numberOfSubjects: 7
   schemaKey: AssetsSummary
-citation: Neuropixels recording in anesthetized rat 24h after LSD (2026). (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001765/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
+  - ElectrodeGroup
+  - Units
+  - ElectricalSeries
+citation: Neuropixels recordings in anesthetized rats (saline vs. LSD) with intracranial
+  electrical stimulation (2026). (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001765/draft
 contributor:
-- email: dwiel@dartmout.edu
+- email: dwiel@dartmouth.edu
   identifier: 0000-0002-9440-7842
   name: Dwiel, Lucas
   roleName:
@@ -26,15 +55,19 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2026-03-12T14:00:44.789653+00:00'
-description: 'Neuropixels recording with electrical stimulation in an anesthetized
-  Sprague-Dawley rat, 24 hours after 0.2 mg/kg LSD administration. Includes raw AP
-  (30 kHz) and LFP (2.5 kHz) data, NIDQ auxiliary channels with stimulation triggers,
-  and Kilosort4-sorted units with Phy curation.Electrode coordinates: Stereotaxic
-  positions are provided per-contact in Paxinos-Watson convention (+x=anterior, +y=superior,
-  +z=right) in mm relative to bregma. Probe insertion: AP=3.4 mm anterior, ML=0.75
-  mm left of midline, DV=6.0 mm ventral from brain surface (probe tip). Perpendicular
-  insertion (0 deg angle). Per-contact lateral offsets from the NP1 staggered column
-  layout (48 um total spread) are incorporated into the z (ML) coordinate.'
+description: "Neuropixels 1.0 recordings from medial prefrontal cortex in seven anesthetized
+  Sprague-Dawley rats (3 LSD, 4 saline), 24 hours after administration of 0.2 mg/kg
+  LSD or saline (vehicle). During recording, electrical stimulation was delivered
+  to the basolateral amygdala (BLA). Raw electrophysiology (AP 30 kHz, LFP 2.5 kHz)
+  and NIDQ auxiliary channels with stimulation triggers are provided per subject under
+  sourcedata/ as NWB, with BIDS/BEP032 sidecars (probe, channels, electrodes, coordinate
+  system). Kilosort4 spike sorting and bombcell quality metrics are provided as derivatives
+  for subject NP06.\n\nElectrode coordinates use the Paxinos & Watson atlas in standard
+  stereotaxic convention (mm; AP and ML relative to bregma, DV relative to brain surface):
+  x = anterior-posterior (anterior positive), y = medial-lateral (right positive),
+  z = dorsal-ventral (dorsal positive, ventral negative). Probe insertion: AP +3.4
+  mm, ML 0.75 mm (left hemisphere), DV -6.0 mm (probe tip), perpendicular (0 deg).
+  BLA stimulation site: AP -1.7, ML 4.5, DV -7.5 mm."
 ethicsApproval: []
 id: DANDI:001765/draft
 identifier: DANDI:001765
@@ -42,7 +75,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001765/versions/draft/assets/
-name: Neuropixels recording in anesthetized rat 24h after LSD
+name: Neuropixels recordings in anesthetized rats (saline vs. LSD) with intracranial
+  electrical stimulation
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
